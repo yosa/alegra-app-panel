@@ -1,0 +1,6 @@
+nbproject
+vendor
+composer.lock
+App/**/node_modules
+.env
+yarn.lock

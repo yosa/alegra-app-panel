@@ -1,0 +1,46 @@
+.center
+{
+        
+    .x-panel-body-default
+    {
+        background-color: @color-panel-body !important;
+    }
+
+    .x-tab-bar-default,
+    .x-tab-focus.x-tab-active.x-tab-default,
+    .x-tab.x-tab-active.x-tab-default,
+    .x-tab.x-tab-pressed
+    {
+        background-color: var(--tab-bar-background);
+        box-shadow: 0 -1px 0 0 var(--color-neutro-third) inset;
+        outline: none;
+    }
+
+    .x-tab-focus.x-tab-active.x-tab-default,
+    .x-tab.x-tab-active.x-tab-default
+    {
+        content: '';
+        box-shadow: 0 -2px 0 0 @color-primary inset;
+    }
+
+    .x-tab.x-tab-active.x-tab-default .x-tab-inner-default
+    {
+        font-weight: bold;
+    }
+
+    .x-tab-inner
+    {
+        color: #575757 !important;
+    }
+
+    .x-tab-bar-default-top > .x-tab-bar-body-default
+    {
+        padding: 8px 20px 0 20px;
+    }
+
+    .x-tab-default-top
+    {
+        padding: 8px 20px 12px;
+    }
+
+}
